@@ -6,9 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
-  /**  height: 1000px;*/
-}
+
 a{
     text-decoration: none;
 
@@ -144,4 +142,24 @@ section{
     width: 112%;
     height: 137%;
     object-fit: cover;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+.menu .content.box{
+    width: 340px;
+    margin: 20px;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.8);
+    background: red;
 }
